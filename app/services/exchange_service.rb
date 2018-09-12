@@ -12,7 +12,7 @@ class ExchangeService
     begin
       exchange_api_url = Rails.application.credentials[Rails.env.to_sym][:currency_api_url]
       exchange_api_key = Rails.application.credentials[Rails.env.to_sym][:currency_api_key]
-      # https://currencydatafeed.com/api/data.php?token=56a52q6gmqoaikhzfwj1&currency=USD/BRL
+      # https://currencydatafeed.com/api/data.php?token=5fdfd6fdsa5fss2q6gmqoaikhzfwj1&currency=USD/BRL
       url = "#{exchange_api_url}?token=#{exchange_api_key}&currency=#{@source_currency}/#{@target_currency}"
       res = RestClient.get url
       value = JSON.parse(res.body)['currency'][0]['value'].to_f

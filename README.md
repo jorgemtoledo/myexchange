@@ -1,10 +1,11 @@
-# MyExxhange
+# MyExhange
 
 >App Conversao de Moeda, utilizando a api [CurrencyDataFeed.Com](https://currencydatafeed.com/)
 
 ![ruby](https://img.shields.io/badge/Ruby-2.5.1-red.svg).
 ![rails](https://img.shields.io/badge/Rails-5.2.1-red.svg).
 ![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg).
+![codeship](https://img.shields.io/badge/Codeship-blue.svg).
 
 ### [Acesse o app online](https://myexchangejm.herokuapp.com)
 
@@ -17,6 +18,7 @@ Nesse app de conversao de moeda, o usuario precisa escolher a moeda local ou de 
 
 ## Requisitos
 - Docker
+- Codeship
 - Clonar o projeto numa pasta em sua maquina
 
 ## Instalacao
@@ -25,4 +27,4 @@ docker-compose build
 docker-compose run --rm website rails db:create db:migrate
 docker-compose up
 
-Acesso o app na url localhost:3000.
+Acesso o app na url localhost:3000.Acesso o app na url localhost:3000.

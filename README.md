@@ -2,10 +2,10 @@
 
 >App Conversao de Moeda, utilizando a api [CurrencyDataFeed.Com](https://currencydatafeed.com/)
 
-![ruby](https://img.shields.io/badge/Ruby-2.5.1-red.svg).
-![rails](https://img.shields.io/badge/Rails-5.2.1-red.svg).
-![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg).
-![codeship](https://img.shields.io/badge/Codeship-blue.svg).
+![ruby](https://img.shields.io/badge/Ruby-2.5.1-red.svg)
+![rails](https://img.shields.io/badge/Rails-5.2.1-red.svg)
+![docker](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)
+![codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)
 
 ### [Acesse o app online](https://myexchangejm.herokuapp.com)
 
